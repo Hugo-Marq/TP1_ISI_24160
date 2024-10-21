@@ -1,0 +1,101 @@
+[ {
+  "id" : 585,
+  "age" : 44,
+  "gender" : "Male",
+  "cp" : "asymptomatic",
+  "trestbps" : 135.0,
+  "chol" : 491.0,
+  "fbs" : "FALSE",
+  "thalch" : 135.0,
+  "exang" : "FALSE"
+}, {
+  "id" : 569,
+  "age" : 53,
+  "gender" : "Male",
+  "cp" : "non-anginal",
+  "trestbps" : 145.0,
+  "chol" : 518.0,
+  "fbs" : "FALSE",
+  "thalch" : 130.0,
+  "exang" : "FALSE"
+}, {
+  "id" : 547,
+  "age" : 54,
+  "gender" : "Male",
+  "cp" : "asymptomatic",
+  "trestbps" : 130.0,
+  "chol" : 603.0,
+  "fbs" : "TRUE",
+  "thalch" : 125.0,
+  "exang" : "TRUE"
+}, {
+  "id" : 153,
+  "age" : 67,
+  "gender" : "Female",
+  "cp" : "non-anginal",
+  "trestbps" : 115.0,
+  "chol" : 564.0,
+  "fbs" : "FALSE",
+  "thalch" : 160.0,
+  "exang" : "FALSE"
+}, {
+  "id" : 529,
+  "age" : 32,
+  "gender" : "Male",
+  "cp" : "asymptomatic",
+  "trestbps" : 118.0,
+  "chol" : 529.0,
+  "fbs" : "FALSE",
+  "thalch" : 130.0,
+  "exang" : "FALSE"
+}, {
+  "id" : 127,
+  "age" : 56,
+  "gender" : "Female",
+  "cp" : "asymptomatic",
+  "trestbps" : 200.0,
+  "chol" : 288.0,
+  "fbs" : "TRUE",
+  "thalch" : 133.0,
+  "exang" : "TRUE"
+}, {
+  "id" : 549,
+  "age" : 54,
+  "gender" : "Male",
+  "cp" : "asymptomatic",
+  "trestbps" : 200.0,
+  "chol" : 198.0,
+  "fbs" : "FALSE",
+  "thalch" : 142.0,
+  "exang" : "TRUE"
+}, {
+  "id" : 702,
+  "age" : 64,
+  "gender" : "Female",
+  "cp" : "asymptomatic",
+  "trestbps" : 200.0,
+  "chol" : 0.0,
+  "fbs" : "FALSE",
+  "thalch" : 140.0,
+  "exang" : "TRUE"
+}, {
+  "id" : 189,
+  "age" : 54,
+  "gender" : "Male",
+  "cp" : "atypical angina",
+  "trestbps" : 192.0,
+  "chol" : 283.0,
+  "fbs" : "FALSE",
+  "thalch" : 195.0,
+  "exang" : "FALSE"
+}, {
+  "id" : 339,
+  "age" : 39,
+  "gender" : "Male",
+  "cp" : "atypical angina",
+  "trestbps" : 190.0,
+  "chol" : 241.0,
+  "fbs" : "FALSE",
+  "thalch" : 106.0,
+  "exang" : "FALSE"
+} ]
