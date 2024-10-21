@@ -1,0 +1,7 @@
+FinalData.csv
+dataAllText.csv
+heart_disease_uci.csv
+../Isi Workflow
+.\heart_disease_uci.csv
+C:\Users\hmpik\knime-workspace\KNIME_project_ISI\data\heart_disease_uci.csv
+C:\Users\hmpik\Desktop\ESI-PL\ANO 3\ISI\TP1\heart_disease_uci.csv

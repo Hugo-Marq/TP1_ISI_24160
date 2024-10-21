@@ -1,437 +1,1632 @@
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
-2024-10-17 19:38:16,602 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
-2024-10-17 19:38:25,513 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-10 20:44:57,170 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-10 20:46:36,690 : WARN  : comm-pool-thread-1 :  : Node : Excel Reader : 3:1 : Please specify a file
+2024-10-10 20:47:01,870 : WARN  : comm-pool-thread-1 :  : Node : Excel Reader : 3:1 : Please specify a file
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-13 16:42:46,023 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-13 16:58:40,033 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) true (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 17:11:08,634 : WARN  : KNIME-Worker-1-CSV Reader 3:1 :  : Node : GroupBy : 3:2 : No grouping column included. Aggregate complete table.
+2024-10-13 17:11:08,634 : WARN  : KNIME-Worker-1-CSV Reader 3:1 :  : Node : GroupBy : 3:2 : No aggregation column defined
+2024-10-13 17:11:08,635 : WARN  : KNIME-Worker-1-CSV Reader 3:1 :  : Node : GroupBy : 3:2 : Please select at least one group or aggregation column
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-13 18:07:32,815 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-13 18:07:40,052 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,519 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,558 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,061 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,141 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,603 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,657 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,146 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,242 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,658 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,708 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,242 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,292 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,708 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,808 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,292 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,391 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,809 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,857 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,391 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,441 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:25,857 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:25,957 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:26,003 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:26,112 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:26,173 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
-2024-10-17 19:38:27,177 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+2024-10-13 18:07:40,441 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,542 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,586 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:40,692 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-13 18:07:41,697 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (repeated 3 times) (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-13 18:15:26,643 : WARN  : comm-pool-thread-2 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-15 19:30:39,363 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-15 19:35:05,430 : WARN  : comm-pool-thread-3 :  : Node : Row Filter : 3:3 : At least one filter criterion is needed.
+2024-10-15 19:36:39,199 : WARN  : KNIME-Worker-2-Row Filter 3:3 :  : Node : Row Filter : 3:3 : Node created an empty data table.
+2024-10-15 19:41:40,901 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:4 valid [3:1, 3:2, 3:3] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 19:41:40,901 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:4 valid [3:1, 3:2, 3:3] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 20:24:13,557 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 20:24:13,557 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 20:42:36,327 : WARN  : comm-pool-thread-13 :  : Node : Row Filter : 3:3 : At least one filter criterion is needed.
+2024-10-15 20:43:54,675 : WARN  : KNIME-Worker-3-Missing Value 3:4 :  : Node : Missing Value : 3:4 : Column "chol" still contains missing values.
+Column "fbs" still contains missing values.
+Column "trestbps" still contains missing values.
+Column "thalch" still contains missing values.
+Column "exang" still contains missing values.
+2024-10-15 20:44:18,186 : WARN  : comm-pool-thread-13 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: No rpc data service available
+	at org.knime.core.webui.node.DataServiceManager.callRpcDataService(DataServiceManager.java:164)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.callPortDataService(DefaultPortService.java:156)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcPortServiceWrapper.callPortDataService(JsonRpcPortServiceWrapper.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$11(Init.java:296)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-10-15 20:44:18,200 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 20:44:18,200 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 20:46:21,762 : WARN  : comm-pool-thread-13 :  : Node : Row Filter : 3:3 : At least one filter criterion is needed.
+2024-10-15 20:53:21,721 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 20:53:21,722 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 20:53:25,906 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:1 valid [] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 20:53:25,910 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:1 valid [] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 20:53:36,072 : WARN  : comm-pool-thread-16 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-10-15 20:59:24,965 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Login failed 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: Cannot read properties of undefined (reading 'at') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 21:07:58,490 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of null (reading 'rowCount') (source: http://org.knime.core.ui.port/uiext/tableview/TableView.js; line: 13319)
+2024-10-15 21:14:23,181 : WARN  : KNIME-Worker-8-Missing Value 3:3 :  : Node : Missing Value : 3:3 : Column "chol" still contains missing values.
+Column "fbs" still contains missing values.
+Column "trestbps" still contains missing values.
+Column "thalch" still contains missing values.
+Column "exang" still contains missing values.
+2024-10-15 21:24:01,605 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-15 21:24:01,605 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:3 valid [3:1, 3:2] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-15 21:24:06,270 : WARN  : comm-pool-thread-32 :  : Node : Row Splitter : 3:3 : At least one filter criterion is needed.
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-17 19:09:05,572 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-17 19:09:13,050 : WARN  : ModalContext :  : Node : Row Splitter : 3:3 : At least one filter criterion is needed.
+2024-10-17 19:09:13,052 : WARN  : ModalContext :  : Node : Row Splitter : 3:3 : At least one filter criterion is needed.
+2024-10-17 19:19:02,241 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 19:19:02,242 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-17 19:25:57,376 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-17 19:28:38,182 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Login failed 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: Cannot read properties of undefined (reading 'at') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 19:31:02,641 : ERROR : main :  : OpenProject :  :  : Loading workflow... failed: The item for id 102273484 is neither a workflow- nor a component-project
+2024-10-17 19:31:02,644 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Could not open workflow (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-17 19:31:57,474 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-17 19:32:19,720 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-17 20:06:12,442 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-17 20:06:20,315 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,330 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,405 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,415 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,509 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,509 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,560 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,560 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,655 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,655 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,704 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: t is not a function (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-17 20:06:20,704 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,804 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,855 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,950 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:20,999 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'name') (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 23)
+2024-10-17 20:06:22,034 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Could not set zoom level 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: t is not a function (repeated 4 times) (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:36,593 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+2024-10-17 20:07:14,473 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-18 19:24:35,119 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-18 19:32:24,043 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:36,622 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-18 19:32:24,043 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-18 20:06:24,764 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:36,622 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
+      Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-18 20:06:24,765 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:2 valid [3:1] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-18 20:13:04,705 : WARN  : comm-pool-thread-12 :  : Node : Cell Splitter : 3:2 : Specify the column to split.
+2024-10-18 21:59:09,549 : WARN  : comm-pool-thread-16 :  : Node : Column Splitter : 3:3 : No settings available, passing all columns to top output port.
+2024-10-18 21:59:09,550 : WARN  : comm-pool-thread-16 :  : Node : Column Splitter : 3:3 : All columns in top partition.
+2024-10-18 22:00:01,950 : WARN  : comm-pool-thread-17 :  : Node : Excel Writer : 3:4 : Please specify a file
+2024-10-18 22:03:54,043 : WARN  : main :  : WrappedNodeDialog : Excel Writer : 3:4 : failed to apply settings: The sheet name may not contain :, [, ], /, \, * or ?.
+org.knime.core.node.InvalidSettingsException: The sheet name may not contain :, [, ], /, \, * or ?.
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterConfig.validateSheetName(ExcelTableWriterConfig.java:465)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterConfig.validateSheets(ExcelTableWriterConfig.java:450)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterConfig.validateSettingsForModel(ExcelTableWriterConfig.java:426)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.validateSettings(ExcelTableWriterNodeModel.java:303)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:634)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-10-18 22:07:06,955 : WARN  : comm-pool-thread-21 :  : Node : String Manipulation : 3:5 : No expression has been set.
+2024-10-18 22:15:18,245 : WARN  : comm-pool-thread-24 :  : Node : String Manipulation : 3:6 : No expression has been set.
+2024-10-18 22:15:20,068 : WARN  : KNIME-Worker-11-String Manipulation 3:5 :  : Node : String Manipulation : 3:6 : No expression has been set.
+2024-10-18 22:16:38,197 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:5 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-18 22:16:44,472 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:5 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace(__col7, "FALSO", "FALSE")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace(__col7, "FALSO", "FALSE")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace(__col7, "FALSO", "FALSE")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-18 22:17:15,309 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:5 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+The method replace(java.lang.String, java.lang.String, java.lang.String) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.ReplaceManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace("FALSO", "FALSE")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+The method replace(java.lang.String, java.lang.String, java.lang.String) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.ReplaceManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace("FALSO", "FALSE")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+The method replace(java.lang.String, java.lang.String, java.lang.String) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.ReplaceManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66  return replace(__col7, "VERDADEIRO", "TRUE");
+  Line : 67  replace("FALSO", "FALSE")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-18 22:18:20,693 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 19:38:36,623 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:00:10,877 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No such node ID: 3:5 valid [3:1, 3:2, 3:3, 3:4, 3:6] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-18 22:18:20,704 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:5 valid [3:1, 3:2, 3:3, 3:4, 3:6] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-18 22:22:28,564 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression11
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERDADEIRO", "TRUE");
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression11
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERDADEIRO", "TRUE");
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:634)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor177.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression11
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERDADEIRO", "TRUE");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 53 more
+2024-10-18 22:22:47,425 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression13
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERD", "TRUE");
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression13
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERD", "TRUE");
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:634)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor177.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method __variable_0replace(java.lang.String, java.lang.String, java.lang.String) is undefined for the type Expression13
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return __variable_0replace("VERDADEIRO", "VERD", "TRUE");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 53 more
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-19 15:10:49,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-19 15:15:03,800 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE")
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE")
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 54 more
+2024-10-19 15:15:14,747 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 54 more
+2024-10-19 15:15:19,360 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");;
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");;
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__variable_0,"FALSO","FALSE");
+  Line : 67  replace(__variable_0,"VERDADEIRO","TRUE");;
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 54 more
+2024-10-19 15:15:33,023 : WARN  : main :  : WrappedNodeDialog : String Manipulation (Multi Column) : 3:6 : failed to apply settings: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE"),
+org.knime.core.node.InvalidSettingsException: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE"),
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:264)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__variable_0,"FALSO","FALSE"),
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.ext.sun.nodes.script.settings.JavaScriptingSettings.setInputAndCompile(JavaScriptingSettings.java:432)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationCalculator.create(MultiColumnStringManipulationCalculator.java:274)
+	at org.knime.base.node.preproc.stringmanipulation.multicolumn.MultiColumnStringManipulationNodeModel.validateSettings(MultiColumnStringManipulationNodeModel.java:256)
+	... 54 more
+2024-10-19 15:28:36,545 : WARN  : Worker-0: Find profile sources :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2024-10-19 17:27:15,431 : WARN  : comm-pool-thread-22 :  : Node : Row Filter : 3:12 : At least one filter criterion is needed.
+2024-10-19 17:28:12,865 : WARN  : comm-pool-thread-22 :  : Node : Row Splitter : 3:12 : At least one filter criterion is needed.
+2024-10-19 17:29:45,284 : WARN  : comm-pool-thread-22 :  : Node : Row Splitter : 3:12 : At least one filter criterion is needed.
+2024-10-19 17:44:34,819 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:10,877 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
+      Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-19 17:44:34,819 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-19 17:47:57,195 : WARN  : comm-pool-thread-30 :  : Node : Row Splitter : 3:12 : At least one filter criterion is needed.
+2024-10-19 17:54:30,747 : WARN  : comm-pool-thread-31 :  : Node : Row Splitter : 3:12 : At least one filter criterion is needed.
+2024-10-19 17:54:32,577 : WARN  : KNIME-Worker-13-Column Filter 3:11 :  : Node : Row Splitter : 3:12 : At least one filter criterion is needed.
+2024-10-19 18:02:03,989 : WARN  : comm-pool-thread-38 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: No rpc data service available
+	at org.knime.core.webui.node.DataServiceManager.callRpcDataService(DataServiceManager.java:164)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.callPortDataService(DefaultPortService.java:156)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcPortServiceWrapper.callPortDataService(JsonRpcPortServiceWrapper.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor148.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$11(Init.java:296)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-10-19 18:02:04,019 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:21,003 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-19 18:02:04,019 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No rpc data service available (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-19 18:04:51,770 : WARN  : comm-pool-thread-40 :  : Node : GroupBy : 3:13 : No grouping column included. Aggregate complete table.
+2024-10-19 18:04:51,771 : WARN  : comm-pool-thread-40 :  : Node : GroupBy : 3:13 : No aggregation column defined
+2024-10-19 18:04:51,863 : WARN  : comm-pool-thread-40 :  : Node : GroupBy : 3:13 : Please select at least one group or aggregation column
+2024-10-19 18:05:34,626 : WARN  : main :  : Node : GroupBy : 3:13 : No aggregation column defined
+2024-10-19 18:17:19,973 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:21,003 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
+      Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-19 18:17:19,974 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-19 18:17:31,584 : WARN  : comm-pool-thread-44 :  : Node : Numeric Binner : 3:13 : No column select for binning.
+2024-10-19 18:21:32,794 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:47,447 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-19 18:21:32,794 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:13 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-19 18:23:02,126 : WARN  : comm-pool-thread-46 :  : Node : GroupBy : 3:14 : No grouping column included. Aggregate complete table.
+2024-10-19 18:23:02,126 : WARN  : comm-pool-thread-46 :  : Node : GroupBy : 3:14 : No aggregation column defined
+2024-10-19 18:23:02,126 : WARN  : comm-pool-thread-46 :  : Node : GroupBy : 3:14 : Please select at least one group or aggregation column
+2024-10-20 11:06:40,173 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:47,447 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
+      Error: No such node ID: 3:15 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-20 11:06:40,174 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:15 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-20 11:45:51,150 : WARN  : comm-pool-thread-57 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 11:47:44,291 : WARN  : main :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 11:47:46,915 : WARN  : KNIME-Worker-34-GroupBy 3:14 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 11:53:41,270 : WARN  : main :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 11:53:45,860 : WARN  : KNIME-Worker-35-GroupBy 3:14 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:00:44,276 : WARN  : Worker-14: Find profile sources :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2024-10-20 12:03:41,150 : WARN  : ModalContext :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:03:41,151 : WARN  : ModalContext :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:12:08,978 : WARN  : comm-pool-thread-66 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:12:35,622 : WARN  : KNIME-Worker-45-String Cleaner 3:15 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:12:36,426 : WARN  : KNIME-Worker-46-GroupBy 3:14 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:14:01,124 : WARN  : comm-pool-thread-68 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:14:16,435 : WARN  : main :  : WrappedNodeDialog : Pivot : 3:16 : failed to apply settings: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.validateSettings(Pivot2NodeModel.java:863)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:211)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-10-20 12:17:51,280 : WARN  : main :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:17:51,281 : WARN  : main :  : Node : Pivot : 3:16 : Ambigious group/pivot column selection.
+2024-10-20 12:21:11,507 : WARN  : main :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:21:11,508 : WARN  : main :  : Node : Pivot : 3:16 : Ambigious group/pivot column selection.
+2024-10-20 12:21:50,755 : WARN  : comm-pool-thread-69 :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:21:50,755 : WARN  : comm-pool-thread-69 :  : Node : Pivot : 3:16 : Ambigious group/pivot column selection.
+2024-10-20 12:24:17,869 : WARN  : comm-pool-thread-72 :  : Node : Pivot : 3:16 : No pivot columns selected.
+2024-10-20 12:24:39,898 : WARN  : main :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:24:39,899 : WARN  : main :  : Node : Pivot : 3:16 : No aggregation columns selected.
+2024-10-20 12:25:31,230 : WARN  : comm-pool-thread-73 :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:25:31,230 : WARN  : comm-pool-thread-73 :  : Node : Pivot : 3:16 : No aggregation columns selected.
+2024-10-20 12:25:36,020 : WARN  : comm-pool-thread-73 :  : Node : Pivot : 3:16 : No aggregation column defined
+2024-10-20 12:25:36,020 : WARN  : comm-pool-thread-73 :  : Node : Pivot : 3:16 : No aggregation columns selected.
+2024-10-20 13:19:47,664 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,088 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No such node ID: 3:16 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-20 13:19:47,664 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:16 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-21 14:28:43,128 : WARN  : comm-pool-thread-88 :  : Node : Row Filter : 3:20 : At least one filter criterion is needed.
+2024-10-21 14:29:17,638 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,088 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
+      Error: No such node ID: 3:18 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-21 14:29:17,639 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:18 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-21 14:29:28,769 : WARN  : comm-pool-thread-88 :  : Node : Row Filter : 3:20 : At least one filter criterion is needed.
+2024-10-21 14:31:32,955 : WARN  : comm-pool-thread-90 :  : Node : Top k Row Filter : 3:20 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-10-21 14:31:59,344 : WARN  : comm-pool-thread-91 :  : Node : Top k Row Filter : 3:20 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-10-21 14:32:11,726 : WARN  : comm-pool-thread-90 :  : Node : Top k Row Filter : 3:20 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-10-21 14:32:20,296 : WARN  : comm-pool-thread-90 :  : Node : Top k Row Filter : 3:20 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-10-21 14:40:30,929 : WARN  : comm-pool-thread-97 :  : Node : Row Filter : 3:21 : At least one filter criterion is needed.
+2024-10-21 14:41:07,409 : WARN  : KNIME-Worker-71-Row Filter 3:21 :  : Node : Row Filter : 3:21 : Node created an empty data table.
+2024-10-21 14:43:18,709 : WARN  : KNIME-Worker-73-Joiner 3:22 :  : Node : Joiner : 3:22 : Node created an empty data table.
+2024-10-21 14:44:32,064 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,267 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
+      Error: No such node ID: 3:22 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20, 3:21] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-21 14:44:32,073 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:22 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20, 3:21] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-21 15:01:43,304 : WARN  : comm-pool-thread-112 :  : Node : JSON Writer : 3:24 : Auto-guessed column 'JSON' as JSON input column
+2024-10-21 15:01:43,305 : WARN  : comm-pool-thread-112 :  : Node : JSON Writer : 3:24 : Please specify a folder
+2024-10-21 15:02:18,767 : ERROR : SwingWorker-pool-13-thread-5 :  : StatusSwingWorker : JSON Writer : 3:24 : Error while updating status message: Trailing char < > at index 53: C:\Users\hmpik\knime-workspace\ISI Workflow\data\json 
+java.nio.file.InvalidPathException: Trailing char < > at index 53: C:\Users\hmpik\knime-workspace\ISI Workflow\data\json 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystem.toLocalPath(LocalWorkflowAwareFileSystem.java:183)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystem.existsWithAccessibilityCheck(LocalWorkflowAwareFileSystem.java:341)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystemProvider.exists(LocalWorkflowAwareFileSystemProvider.java:159)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystemProvider.exists(LocalWorkflowAwareFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:656)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:733)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:302)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.FolderStatusMessageReporter.report(FolderStatusMessageReporter.java:87)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-10-21 15:02:20,384 : ERROR : SwingWorker-pool-13-thread-9 :  : StatusSwingWorker : JSON Writer : 3:24 : Error while updating status message: Trailing char < > at index 53: C:\Users\hmpik\knime-workspace\ISI Workflow\data\json 
+java.nio.file.InvalidPathException: Trailing char < > at index 53: C:\Users\hmpik\knime-workspace\ISI Workflow\data\json 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystem.toLocalPath(LocalWorkflowAwareFileSystem.java:183)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystem.existsWithAccessibilityCheck(LocalWorkflowAwareFileSystem.java:341)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystemProvider.exists(LocalWorkflowAwareFileSystemProvider.java:159)
+	at org.knime.filehandling.core.fs.knime.local.workflowaware.LocalWorkflowAwareFileSystemProvider.exists(LocalWorkflowAwareFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:656)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:733)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:302)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.writer.FolderStatusMessageReporter.report(FolderStatusMessageReporter.java:87)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-10-21 15:02:27,238 : ERROR : KNIME-Worker-85-JSON Writer 3:24 :  : Node : JSON Writer : 3:24 : Execute failed: The directory 'jsondata' does not exist and must not be created due to user settings.
+java.io.IOException: The directory 'jsondata' does not exist and must not be created due to user settings.
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterNodeModel.createOutputDirIfRequired(AbstractMultiTableWriterNodeModel.java:354)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterNodeModel.execute(AbstractMultiTableWriterNodeModel.java:320)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterNodeModel.execute(AbstractMultiTableWriterNodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-10-21 15:04:55,985 : ERROR : KNIME-Worker-88-JSON Writer 3:24 :  : Node : JSON Writer : 3:24 : Execute failed: The file 'JSONData/File_0.json' already exists and must not be overwritten
+java.lang.IllegalStateException: The file 'JSONData/File_0.json' already exists and must not be overwritten
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterCellFactory.write(AbstractMultiTableWriterCellFactory.java:151)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterCellFactory.getCells(AbstractMultiTableWriterCellFactory.java:133)
+	at org.knime.core.data.container.CellFactory.getCells(CellFactory.java:98)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterNodeModel.execute(AbstractMultiTableWriterNodeModel.java:323)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterNodeModel.execute(AbstractMultiTableWriterNodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.nio.file.FileAlreadyExistsException: JSONData/File_0.json
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.newOutputStream(BaseFileSystemProvider.java:494)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:139)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterCellFactory.getOutputStream(AbstractMultiTableWriterCellFactory.java:169)
+	at org.knime.filehandling.core.node.table.writer.AbstractMultiTableWriterCellFactory.write(AbstractMultiTableWriterCellFactory.java:147)
+	... 22 more
+2024-10-21 15:07:13,400 : WARN  : comm-pool-thread-114 :  : Node : XML Writer : 3:25 : No applicable XML column available
+2024-10-21 15:10:49,370 : WARN  : comm-pool-thread-115 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:21:37,985 : WARN  : comm-pool-thread-118 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:22:44,394 : WARN  : comm-pool-thread-118 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:22:48,450 : WARN  : KNIME-Worker-94-GroupBy 3:14 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:22:48,451 : WARN  : KNIME-Worker-95-Column Renamer 3:27 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:29:37,614 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: Age_Range (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Age_Range (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:30:23,483 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: Age_Range (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Age_Range (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:30:51,166 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: Age_Range (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Age_Range (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:31:31,019 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: age_range (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: age_range (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:31:40,687 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: Mean_Chol (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: Mean_Chol (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:32:00,760 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: No such column: MeanRestBloodPr (at line 1)
+org.knime.core.node.InvalidSettingsException: No such column: MeanRestBloodPr (at line 1)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:582)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-10-21 15:33:52,142 : WARN  : comm-pool-thread-122 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:33:54,731 : WARN  : KNIME-Worker-96-Column Renamer 3:27 :  : Node : String Manipulation : 3:26 : No expression has been set.
+2024-10-21 15:34:38,468 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:26 : failed to apply settings: Unable to compile expression
+ERROR at line 71
+The method join(java.lang.String...) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.JoinManipulator is not applicable for the arguments (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)
+  Line : 70    public java.lang.String internalEvaluate() throws Abort {
+  Line : 71  return join("<age_range>",
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 71
+The method join(java.lang.String...) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.JoinManipulator is not applicable for the arguments (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)
+  Line : 70    public java.lang.String internalEvaluate() throws Abort {
+  Line : 71  return join("<age_range>",
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 71
+The method join(java.lang.String...) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.JoinManipulator is not applicable for the arguments (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Double, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)
+  Line : 70    public java.lang.String internalEvaluate() throws Abort {
+  Line : 71  return join("<age_range>",
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-21 15:41:10,014 : WARN  : comm-pool-thread-127 :  : Node : GroupBy : 3:28 : No grouping column included. Aggregate complete table.
+2024-10-21 15:41:10,015 : WARN  : comm-pool-thread-127 :  : Node : GroupBy : 3:28 : No aggregation column defined
+2024-10-21 15:41:10,015 : WARN  : comm-pool-thread-127 :  : Node : GroupBy : 3:28 : Please select at least one group or aggregation column
+2024-10-21 15:42:27,083 : WARN  : main :  : Node : GroupBy : 3:28 : No grouping column included. Aggregate complete table.
+2024-10-21 15:43:31,197 : WARN  : main :  : Node : GroupBy : 3:28 : No grouping column included. Aggregate complete table.
+2024-10-21 15:44:25,989 : WARN  : comm-pool-thread-130 :  : Node : XML Writer : 3:29 : No applicable XML column available
+2024-10-21 15:44:46,720 : WARN  : KNIME-Worker-101-String to XML 3:29 :  : StringToXMLNodeModel : String to XML : 3:29 : Cell in row:"Row0" and column "Concatenate*(toXml)" could not be parsed: The markup in the document following the root element must be well-formed. Add missing value.
+
+2024-10-21 15:44:46,721 : WARN  : KNIME-Worker-101-String to XML 3:29 :  : Node : String to XML : 3:29 : Problems occurred, see Console messages.
+
+2024-10-21 15:44:53,954 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
       background: #c0392b;
       border-radius: 0.5em;
       color: white;
       font-weight: bold;
       padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,267 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,817 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:49,817 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:50,403 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:50,403 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:50,822 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:00:50,824 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:09,127 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:09,182 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:09,182 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:09,183 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:12,043 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:12,082 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:12,082 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:12,083 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
-2024-10-17 20:01:23,113 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
-2024-10-17 20:01:40,563 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:40,598 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:40,599 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:40,599 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:47,768 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:47,803 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:47,803 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:47,803 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:48,654 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:48,688 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:48,688 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:48,689 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:51,008 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:51,038 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:51,038 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:51,039 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:01:57,303 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:01:57,303 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
-2024-10-17 20:03:41,599 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
-2024-10-17 20:05:16,154 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:05:16,214 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:05:16,214 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:05:16,215 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
-2024-10-17 20:05:34,804 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-17 20:05:34,804 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c There was an error creating the workflow 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
-2024-10-21 17:01:34,555 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
-2024-10-21 17:01:45,927 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-21 17:01:45,963 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error making RPC call 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-21 17:01:45,963 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error trying to fetch workflow group content 
-      background: #c0392b;
-      border-radius: 0.5em;
-      color: white;
-      font-weight: bold;
-      padding: 2px 0.5em;
-      [object Object] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
-2024-10-21 17:01:45,964 : ERROR : main :  : KnimeBrowserView :  :  : Error: Problem fetching space items (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 14)
+      Error: No such node ID: 3:29 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20, 3:21, 3:22, 3:23, 3:24, 3:26, 3:27, 3:28] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 64)
+2024-10-21 15:44:53,955 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) Error: No such node ID: 3:29 valid [3:1, 3:2, 3:3, 3:4, 3:6, 3:7, 3:8, 3:10, 3:11, 3:12, 3:13, 3:14, 3:15, 3:16, 3:17, 3:19, 3:20, 3:21, 3:22, 3:23, 3:24, 3:26, 3:27, 3:28] (source: http://org.knime.ui.java/assets/index-PyhZB-uQ.js; line: 22)
+2024-10-21 15:46:55,004 : WARN  : comm-pool-thread-131 :  : Node : XML Row Combine and Write : 3:29 : No output file selected
+2024-10-21 15:47:13,105 : WARN  : comm-pool-thread-131 :  : Node : XML Writer : 3:30 : No applicable XML column available
+2024-10-21 15:47:43,584 : WARN  : comm-pool-thread-132 :  : Node : XML Row Combine and Write : 3:29 : No output file selected
+2024-10-21 15:54:27,473 : ERROR : KNIME-Worker-102-Column to XML 3:29 :  : Node : Column to XML : 3:29 : Execute failed: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+java.lang.IllegalStateException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel$ColumnToXMLCellFactory.getCell(ColumnToXMLNodeModel.java:405)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel.execute(ColumnToXMLNodeModel.java:194)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.knime.core.data.xml.io.XMLDOMCellReader.readXML(XMLDOMCellReader.java:169)
+	at org.knime.core.data.xml.XMLCellContent.parse(XMLCellContent.java:274)
+	at org.knime.core.data.xml.XMLCellContent.<init>(XMLCellContent.java:105)
+	at org.knime.core.data.xml.XMLCellFactory.create(XMLCellFactory.java:139)
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel$ColumnToXMLCellFactory.getCell(ColumnToXMLNodeModel.java:403)
+	... 22 more
+2024-10-21 15:54:48,559 : WARN  : comm-pool-thread-134 :  : Node : Column to XML : 3:29 : No such column in input table: Concatenate*(toXml)
+2024-10-21 15:55:07,947 : ERROR : KNIME-Worker-103-Column to XML 3:29 :  : Node : Column to XML : 3:29 : Execute failed: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+java.lang.IllegalStateException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel$ColumnToXMLCellFactory.getCell(ColumnToXMLNodeModel.java:405)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel.execute(ColumnToXMLNodeModel.java:194)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.knime.core.data.xml.io.XMLDOMCellReader.readXML(XMLDOMCellReader.java:169)
+	at org.knime.core.data.xml.XMLCellContent.parse(XMLCellContent.java:274)
+	at org.knime.core.data.xml.XMLCellContent.<init>(XMLCellContent.java:105)
+	at org.knime.core.data.xml.XMLCellFactory.create(XMLCellFactory.java:139)
+	at org.knime.xml.node.columntoxml.ColumnToXMLNodeModel$ColumnToXMLCellFactory.getCell(ColumnToXMLNodeModel.java:403)
+	... 22 more
+2024-10-21 16:02:37,272 : WARN  : main :  : Node : Column to XML : 3:28 : Please define valid keys for the attributes. Empty keys are not allowed
+2024-10-21 16:04:13,640 : WARN  : comm-pool-thread-140 :  : Node : XML Writer : 3:29 : Auto-guessed column 'XML' as XML input column
+2024-10-21 16:04:13,641 : WARN  : comm-pool-thread-140 :  : Node : XML Writer : 3:29 : Please specify a folder
+2024-10-21 16:35:56,119 : WARN  : comm-pool-thread-144 :  : Node : CSV Writer : 3:30 : Please specify a file
+2024-10-21 16:55:54,550 : WARN  : comm-pool-thread-148 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: A default service couldn't be initialized: org.knime.gateway.impl.webui.service.DefaultEventService
+	at org.knime.gateway.impl.webui.service.ServiceInstances$1.initialize(ServiceInstances.java:129)
+	at org.knime.gateway.impl.webui.service.ServiceInstances$1.initialize(ServiceInstances.java:1)
+	at org.apache.commons.lang3.concurrent.LazyInitializer.get(LazyInitializer.java:143)
+	at org.knime.gateway.impl.webui.service.ServiceInstances.getDefaultServiceInstance(ServiceInstances.java:134)
+	at org.knime.gateway.impl.webui.service.ServiceInstances.lambda$0(ServiceInstances.java:114)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcEventServiceWrapper.removeEventListener(JsonRpcEventServiceWrapper.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:104)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$11(Init.java:296)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.knime.gateway.impl.webui.service.ServiceInstances$1.initialize(ServiceInstances.java:126)
+	... 23 more
+Caused by: java.lang.IllegalStateException: No instance for class org.knime.gateway.impl.webui.service.events.EventConsumer given but required as a service dependency
+	at org.knime.gateway.impl.webui.service.ServiceDependencies.getServiceDependency(ServiceDependencies.java:106)
+	at org.knime.gateway.impl.webui.service.DefaultEventService.<init>(DefaultEventService.java:91)
+	... 29 more
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-21 16:59:45,523 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-10-21 17:06:22,964 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
