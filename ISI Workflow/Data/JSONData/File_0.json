@@ -69,16 +69,6 @@
   "thalch" : 142.0,
   "exang" : "TRUE"
 }, {
-  "id" : 702,
-  "age" : 64,
-  "gender" : "Female",
-  "cp" : "asymptomatic",
-  "trestbps" : 200.0,
-  "chol" : 0.0,
-  "fbs" : "FALSE",
-  "thalch" : 140.0,
-  "exang" : "TRUE"
-}, {
   "id" : 189,
   "age" : 54,
   "gender" : "Male",
@@ -98,4 +88,14 @@
   "fbs" : "FALSE",
   "thalch" : 106.0,
   "exang" : "FALSE"
+}, {
+  "id" : 897,
+  "age" : 61,
+  "gender" : "Male",
+  "cp" : "asymptomatic",
+  "trestbps" : 190.0,
+  "chol" : 287.0,
+  "fbs" : "TRUE",
+  "thalch" : 150.0,
+  "exang" : "TRUE"
 } ]

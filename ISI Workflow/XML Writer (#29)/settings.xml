@@ -32,7 +32,7 @@
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
             <entry key="create_missing_folders" type="xboolean" value="false"/>
-            <entry key="if_path_exists" type="xstring" value="fail"/>
+            <entry key="if_path_exists" type="xstring" value="overwrite"/>
         </config>
         <config key="xml_column_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -111,6 +111,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0493d01f-7605-4f5a-973d-798a63f1b5fc"/>
+        <entry key="file_store_id" type="xstring" value="1fa03dc0-3ad9-4413-893c-552fc397c628"/>
     </config>
 </config>

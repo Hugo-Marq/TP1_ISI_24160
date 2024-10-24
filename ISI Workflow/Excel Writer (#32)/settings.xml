@@ -38,7 +38,7 @@
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
             <entry key="create_missing_folders" type="xboolean" value="false"/>
-            <entry key="if_path_exists" type="xstring" value="fail"/>
+            <entry key="if_path_exists" type="xstring" value="overwrite"/>
         </config>
         <config key="sheet_names">
             <entry key="array-size" type="xint" value="1"/>
@@ -132,6 +132,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6cdee0d6-6f47-43d7-916e-0e490103d09c"/>
+        <entry key="file_store_id" type="xstring" value="94b418dc-1773-4175-ac7b-fdbdfc8665ae"/>
     </config>
 </config>
